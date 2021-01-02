@@ -16,3 +16,23 @@ Se apagarmos o line-height do float.css, podemos ver ele ir até onde ele coube.
 Esse é realmente um comportamento esperado do float.
 
 *Prestar atenção e fazer as devidas anotações sobre o conteúdo que nunca vai sumir mesmo usando float.*
+
+### Segundo chute
+
+Vamos adicionar na div vermelha um float: left, tirar o opacity, também o color: red para limpar o código.
+
+Aqui está um comportamento mais fácil de entender. Aqui tínhamos a div roxa e a div vermelha. A gente falou assim: Div roxa, flutua a esquerda! 
+Ela foi lá e flutuou. Fizemos a mesma coisa com a div vermelha. Porém as duas entraram no novo contexto, sendo como a div roxa já estava na esquerda ela simplesmente foi na extrema esquerda, indo até o limite da esquerda. É como dois quadrados que não podem ocupar o mesmo espaço.
+
+![img1](img/img1.png)
+
+Para tirar a prova real vamos colocar uma cor de fundo amarela no parágrafo.
+
+![img3](img/img3.png)
+
+Colocamos uma opacidade nas duas divs para ver de fato que as duas divs estão atrás do parágrafo.
+
+![img4](img/img4.png)
+
+Iremos colocar agora um float: right na div vermelha. Tiramos o opacity, o fundo amarelo.
+
