@@ -26,3 +26,36 @@ Ela foi lá e flutuou. Fizemos a mesma coisa com a div vermelha. Porém as duas 
 
 *Prestar atenção quando ele explica os elementos com o parágrafo. Se não lembra volte a ver o vídeo*
 
+### O que acontece com o pai que envolve elementos que estão flutuando? A partir do tempo 7:50
+
+*Estudar as propriedades que calculam o recalculo do novo contexto*
+
+overflow: hidden, clear:both.
+
+*Estudar as quebras de tela. Quando que um elemento cai, quebra ou fica?(Porcentagem, width)*
+
+## Resumo
+
+O float é o mais fácil inicialmente, mas o mais difícil de dominar. 
+
+Quando mandamos o float para esquerda ou direita ele flutua de boa, lembrando sempre do novo contexto.
+
+Outra coisa: Se tiver um elemento que ele esconde, que fica sobre esse elemento ele fica de boa sobre o elemento, mas ele não fica sobre um conteúdo.
+
+O pai que está guardando um elemento que está flutuando, ele perde a largura e altura, mas podemos recuperar usando um overflow: hidden.
+
+Se você diminuir o tamanho do browser, a partir do momento em que ele não cabe mais na linha ele cai automaticamente para o sentido que você mandou. (Dois float: right vão cair para a direita)
+
+Não podemos esquecer do clear, que limpa o contexto de um elemento que vem logo após de um elemento que está flutuando. Se você não quer que ele se encaixa ao lado desse elemento que está flutuando, que não fique atrás desse elemento que está flutuando, é só dar um clear falando qual lado que está esse elemento que está flutuando. Sendo assim ele sai desse novo contexto
+
+
+
+
+
+
+
+
+
+
+
+
